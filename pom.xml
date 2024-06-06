@@ -71,17 +71,15 @@
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
-                <version>${mybatisplus.boot.starter.version}
-                </version>
+                <version>${mybatisplus.boot.starter.version}</version>
             </dependency>
             <!--https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.16-->
             <!--scope=provided，说明它只在编译阶段⽣效，不需要打⼊包中, Lombok在编译期将带Lombok注解的Java⽂件正确编译为完整的Class⽂件-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>${lombok.version}
-                </version>
-                <scope>provided</scope>
+                <version>${lombok.version}</version>
+<!--                <scope>provided</scope>-->
             </dependency>
             <!--https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
             <dependency>
